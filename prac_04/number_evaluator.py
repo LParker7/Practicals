@@ -24,7 +24,7 @@ def evaluate_numbers(numbers):
 def get_average(numbers):
     sum_of_numbers = 0
     for number in range(5):
-        sum_of_numbers += numbers[number-1]
+        sum_of_numbers += numbers[number - 1]
     average = sum_of_numbers / 5
     return average
 
