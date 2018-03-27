@@ -10,4 +10,4 @@ for word in words:
         keywords.append(word)
 keywords.sort()
 for word in keywords:
-    print(word, ":", word_to_count[word])
+    print("{:{}} : {}".format(word, len(max(keywords)), word_to_count[word]))
