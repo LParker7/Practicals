@@ -8,4 +8,3 @@ while color != "":
     else:
         print("Color not in dictionary")
     color = input("Enter color name: ")
-
