@@ -1,5 +1,5 @@
 COLOR_NAMES = {"AliceBlue": "#f0f8ff", "AntiqueWhite": "#faebd7", "BlanchedAlmond": "#ffebcd", "BlueViolet": "#8a2be2",
-               "CadetBlue": "5f9ea0", "CornflowerBlue": "#6495ed", "DarkGoldenrod": "#b8860b", "DarkGreen": "#006400"}
+               "CadetBlue": "#5f9ea0", "CornflowerBlue": "#6495ed", "DarkGoldenrod": "#b8860b", "DarkGreen": "#006400"}
 
 color = input("Enter color name: ")
 while color != "":
