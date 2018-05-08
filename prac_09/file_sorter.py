@@ -11,4 +11,3 @@ for filename in os.listdir('.'):
         pass
     finally:
         shutil.move(filename, file_extension)
-
