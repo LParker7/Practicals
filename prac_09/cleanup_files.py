@@ -18,7 +18,6 @@ def main():
     # make a new directory
     # os.mkdir('temp')
 
-
     for dir_name, subdir_list, file_list in os.walk('Lyrics'):
         # print(os.listdir('.'))
         # print(os.getcwd())
