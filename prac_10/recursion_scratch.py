@@ -3,4 +3,5 @@ def pyramid_block_counter(rows):
         return 0
     return rows + pyramid_block_counter(rows - 1)
 
+
 print(pyramid_block_counter(6))

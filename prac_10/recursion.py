@@ -21,9 +21,8 @@ def do_something(n):
     """Print the squares of positive numbers from n down to 0."""
     if n > 0:
         print(n ** 2)
-    else:
-        return 0
-    do_something(n - 1)
+        do_something(n - 1)
+
 
 # TODO: 3. write down what you think the output of this will be,
 # There's no base case, so it will just continue running even after hitting -ve values
